@@ -1,0 +1,18 @@
+package com.tongthuan.webdothethao_backend.constantvalue;
+
+public enum ResponseCode {
+    CART_ITEM_NOT_FOUND,
+    NUMBER_REACHED_MAXIMUM,
+    PRODUCT_OUT_OF_STOCK,
+    INVALID_QUANTITY,
+    UNAUTHORIZED_ACTION,
+    INTERNAL_SERVER_ERROR,
+    AUTHENTICATION_FALSE,
+    NO_ACCESS,
+    USER_NOT_ACTIVE,
+    USER_NOT_FOUND,
+    FALSE_USERNAME_OR_PASSWORD,
+    PRODUCT_NOT_FOUND,
+    CART_NOT_FOUND,
+    SUCCESS
+}
